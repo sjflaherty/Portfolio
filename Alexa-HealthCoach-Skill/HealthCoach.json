@@ -1,0 +1,251 @@
+{
+    "languageModel": {
+        "invocationName": "health coach",
+        "intents": [
+            {
+                "name": "AMAZON.CancelIntent",
+                "slots": [],
+                "samples": []
+            },
+            {
+                "name": "AMAZON.HelpIntent",
+                "slots": [],
+                "samples": []
+            },
+            {
+                "name": "AMAZON.PauseIntent",
+                "slots": [],
+                "samples": []
+            },
+            {
+                "name": "AMAZON.ResumeIntent",
+                "slots": [],
+                "samples": []
+            },
+            {
+                "name": "AMAZON.StopIntent",
+                "slots": [],
+                "samples": []
+            },
+            {
+                "name": "cardioIntent",
+                "slots": [],
+                "samples": [
+                    "cardiovascular",
+                    "cardio",
+                    "make me ready for spring break",
+                    "i need a bikini body",
+                    "i need to break a sweat",
+                    "make me sweat",
+                    "get my heart rate up",
+                    "make me run",
+                    "get me moving",
+                    "Start heart moving",
+                    "Start run",
+                    "Start cardio"
+                ]
+            },
+            {
+                "name": "upperIntent",
+                "slots": [],
+                "samples": [
+                    "chest",
+                    "upper back",
+                    "shoulders",
+                    "traps",
+                    "pecs",
+                    "pectorals",
+                    "forearm",
+                    "delts",
+                    "deltoids",
+                    "strengthen back",
+                    "strengthen arms",
+                    "back workout",
+                    "jacked",
+                    "triceps",
+                    "biceps",
+                    "upper body",
+                    "get rid of my flab",
+                    "strengthen my chest",
+                    "my arms are flabby",
+                    "strengthen my arms",
+                    "i want massive arms",
+                    "i need big biceps",
+                    "upper workout",
+                    "lifting weights"
+                ]
+            },
+            {
+                "name": "lowerIntent",
+                "slots": [],
+                "samples": [
+                    "leg day",
+                    "legs",
+                    "hammies",
+                    "hamstrings",
+                    "butt",
+                    "ass",
+                    "bum",
+                    "glutes",
+                    "quadricep",
+                    "quads",
+                    "calf",
+                    "calves",
+                    "thighs",
+                    "i want a bikini bottom",
+                    "i want a thigh gap ",
+                    "i want a strong buttocks",
+                    "i want muscular legs",
+                    "i want a big butt",
+                    "booty workouts",
+                    "i want a nice booty",
+                    "booty",
+                    "give me a good butt",
+                    "lower body",
+                    "how can i lose weight in my legs",
+                    "reduce my buttocks size",
+                    "i need a thigh gap",
+                    "make my thighs thiccccc",
+                    "make my legs stronger",
+                    "i need to strengthen my lower body",
+                    "how should I work out my legs",
+                    "i need a lower body workout"
+                ]
+            },
+            {
+                "name": "absIntent",
+                "slots": [],
+                "samples": [
+                    "rock hard abs",
+                    "abdominal",
+                    "ab workout",
+                    "ab",
+                    "core",
+                    "stomach",
+                    "abs",
+                    "lose weight in my stomach",
+                    "i need a six pack",
+                    "get rid of my food baby",
+                    "make my belly thin",
+                    "get rid of my stomach fat",
+                    "work out my abs",
+                    "give me an ab work out",
+                    "i need a tight core",
+                    "give me a six pack"
+                ]
+            },
+            {
+                "name": "motivationIntent",
+                "slots": [],
+                "samples": [
+                    "i am a toad",
+                    "why is life hard",
+                    "i want to cry",
+                    "life sucks",
+                    "i feel like a thousand pounds today",
+                    "bloated",
+                    "whale",
+                    "chubby",
+                    "i am fat",
+                    "tell me im pretty",
+                    "in a week i want to lose weight",
+                    "i want to be healthy",
+                    "encourage me",
+                    "make me better",
+                    "i hate running",
+                    "make me want to work out",
+                    "make me eat healthy",
+                    "i like chocolate",
+                    "inspire",
+                    "motivate me",
+                    "I hate exercise",
+                    "fail",
+                    "failure",
+                    "give up",
+                    "can I give up",
+                    "cheer me up",
+                    "catch phrase",
+                    "power through",
+                    "quote",
+                    "motivation",
+                    "inspire me"
+                ]
+            },
+            {
+                "name": "factIntent",
+                "slots": [],
+                "samples": [
+                    "fitness",
+                    "statistics",
+                    "info",
+                    "fitness information",
+                    "health stuff",
+                    "information",
+                    "tell me something about health",
+                    "tell me a fact",
+                    "how can I be healthy",
+                    "why no cookie",
+                    "why am i doing this",
+                    "give me stats",
+                    "health facts"
+                ]
+            },
+            {
+                "name": "workoutIntent",
+                "slots": [],
+                "samples": [
+                    "fitness",
+                    "exercise",
+                    "i need to workout",
+                    "workout"
+                ]
+            }
+        ],
+        "types": [
+            {
+                "name": "workout_type",
+                "values": [
+                    {
+                        "id": "WK1",
+                        "name": {
+                            "value": "upper",
+                            "synonyms": [
+                                "chest",
+                                "arms"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "WK2",
+                        "name": {
+                            "value": "lower",
+                            "synonyms": [
+                                "hamstring",
+                                "shins",
+                                "legs"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "WK3",
+                        "name": {
+                            "value": "abs",
+                            "synonyms": [
+                                "abdominal"
+                            ]
+                        }
+                    },
+                    {
+                        "id": "WK4",
+                        "name": {
+                            "value": "cardio",
+                            "synonyms": [
+                                "heart"
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
